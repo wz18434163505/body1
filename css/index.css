@@ -1,0 +1,511 @@
+/*
+* @Author: Administrator
+* @Date:   2018-04-10 16:00:48
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-04-13 19:40:36
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+header{
+	width: 100%;
+	height: 72px;
+	box-shadow: 0 2px 10px 1px rgba(0, 0, 0, 0.5);
+}
+.main{
+	width: 1140px;
+	height: 100%;
+	/* background: pink; */
+	margin: 0 auto;
+}
+.header_left{
+	width: 87px;
+	height: 26px;
+	margin-top: 20px;
+	margin-left: 4px;
+	/* background: red; */
+	font-size: 18px;
+	color: #333333;
+	text-align: center;
+	line-height: 26px;
+	float: left;
+}
+a{
+	color: #000;
+}
+.header_right{
+	width: 332px;
+	height: 13px;
+	margin-top: 30px;
+	margin-left: 601px;
+	/* background: red; */
+	float: right;
+}
+.header_right1{
+	display: block;
+	width: 44px;
+	height: 13px;
+	float: left;
+	font-size: 9px;
+	text-align: center;
+	line-height: 13px;
+	color: #000;
+}
+.header_right2{
+	display: block;
+	width: 50px;
+	height: 13px;
+	float: left;
+	margin-left: 13px;
+	font-size: 9px;
+	text-align: center;
+	line-height: 13px;
+	color: #000;
+}
+.header_right3{
+	display: block;
+	width: 79px;
+	height: 13px;
+	float: left;
+	margin-left: 13px;
+	font-size: 9px;
+	text-align: center;
+	line-height: 13px;
+	color: #000;
+}
+.header_right4{
+	display: block;
+	width: 39px;
+	height: 13px;
+	float: left;
+	margin-left: 14px;
+	font-size: 9px;
+	text-align: center;
+	line-height: 13px;
+	color: #000;
+}
+.header_right5{
+	display: block;
+	width: 65px;
+	width: 39px;
+	height: 13px;
+	float: left;
+	margin-left: 14px;
+	font-size: 9px;
+	text-align: center;
+	line-height: 13px;
+	color: #000;
+}
+.part1{
+	width: 1140px;
+	height: 730px;
+	/* background: pink; */
+	margin: 0 auto;
+	overflow: hidden;
+}
+.text{
+	width: 184px;
+	height: 74px;
+	/* background: yellow; */
+	margin: 63px auto 0;
+	font-size: 34px;
+	color: #0b98ea;
+	text-align: center;
+	line-height: 74px;
+}
+.part1_bottom{
+	width: 100%;
+	height: 472px;
+	margin-top: 47px;
+	background: yellow;
+	box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.mypicture{
+	width: 666px;
+	height: 471px;
+	background: #fff;
+	overflow: hidden;
+	float: left;
+	/* margin-top: 13px;
+	margin-left: 120px;
+	float: left;
+	margin-right: 30px; */
+}
+.mypicture01{
+	width: 619px;
+	height: 425px;
+	margin: 23px auto;
+	background:url('../img/me02.jpg') no-repeat;
+	background-size: cover;
+}
+.my_text{
+	width: 474px;
+	height: 472px;
+	background: #0b98ea;
+	float: left;
+}
+.text01{
+	width: 391px;
+	height: 80px;
+	background: #0b98ea;
+	margin-left: 42px;
+	border-bottom: 1px solid #5abcf5;
+}
+.text02{
+	margin-top: 33px;
+}
+.text01 span{
+	line-height: 60px;
+	font-size: 16px;
+	color: #fff;
+}
+.text01 h2{
+	line-height: 12px;
+	font-size: 10px;
+	color: #fff;
+	
+}
+/*技能展示开始*/
+.skill{
+	width: 1140px;
+	height: 543px;
+	/* background: #f6f6f6; */
+	/* background: blue; */
+	margin: 0 auto;
+}
+.skill_top{
+	width: 167px;
+	height: 71px;
+	/* background: red; */
+	margin: 0 auto;
+	font-size: 27px;
+	color: #000;
+	text-align: center;
+	line-height: 71px;
+}
+.skill_bottom{
+	width: 100%;
+	height: 437px;
+	/* background: yellow; */
+	margin-top: 34px;
+}
+.skill_left{
+	width: 510px;
+	height: 437px;
+	/* background: red; */
+	/* margin-top: 34px; */
+	float: left;
+}
+.skill_left_top{
+	width: 100%;
+	height: 192px;
+	/* background: pink; */
+}
+.pic1{
+	width: 240px;
+	height: 100%;
+	background: url("../img/pic01_03.png");
+	background-size: cover;
+	float: left;
+}
+.pic2{
+	width: 240px;
+	height: 100%;
+	background: url("../img/pic02_03.png");
+	float: right;
+}
+.skill_left_bottom{
+	width: 100%;
+	height: 192px;
+	/* background: pink; */
+	margin-top: 48px;
+	overflow: hidden;
+}
+.pic3{
+	width: 240px;
+	height: 100%;
+    background: url("../img/pic03_03.png");
+	float: left;
+}
+.pic4{
+	width: 240px;
+	height: 100%;
+	background: url("../img/pic04_03.png");
+	float: right;
+}
+.skill_right{
+	width: 559px;
+	height: 437px;
+	/* background: pink; */
+	float:right
+}
+.skill_right1{
+	width: 540px;
+	height: 30px;
+	background: #eeeeee;
+	margin-top: 5px;
+	margin-bottom: 33px;
+	border-radius: 20px;
+}
+.skill_right01{
+	width: 432px;
+	height: 100%;
+	float: left;
+	background: #ff4f81;
+	border-radius: 20px;
+}
+.skill_right02{
+	width: 406px;
+	height: 100%;
+	float: left;
+	background: #ff9900;
+	border-radius: 20px;
+}
+.skill_right03{
+	width: 324px;
+	height: 100%;
+	float: left;
+	background: #8e43e7;
+	border-radius: 20px;
+}
+.skill_right04{
+	width: 215px;
+	height: 100%;
+	float: left;
+	background: #146eb4;
+	border-radius: 20px;
+}
+.skill_right05{
+	width: 406px;
+	height: 100%;
+	float: left;
+	background: #11b563;
+	border-radius: 20px;
+}
+.skill_right06{
+	width: 144px;
+	height: 100%;
+	float: left;
+	background: #ff4f81;
+	border-radius: 20px;
+}
+.skill_right011{
+	width: 110px;
+	height: 100%;
+	float: left;
+	background: #d9436e;
+	border-radius: 20px;
+}
+.skill_right012{
+	width: 110px;
+	height: 100%;
+	float: left;
+	background: #d98200;
+	border-radius: 20px;
+}
+.skill_right013{
+	width: 110px;
+	height: 100%;
+	float: left;
+	background: #7939c5;
+	border-radius: 20px;
+}
+.skill_right014{
+	width: 110px;
+	height: 100%;
+	float: left;
+	background: #115e99;
+	border-radius: 20px;
+}
+.skill_right015{
+	width: 110px;
+	height: 100%;
+	float: left;
+	background: #0e9a54;
+	border-radius: 20px;
+}
+.skill_right016{
+	width: 110px;
+	height: 100%;
+	float: left;
+	background: #d9436e;
+	border-radius: 20px;
+}
+.skill_right1 h1{
+	font-size: 10px;
+	color: #fff;
+	text-align: center;
+	line-height: 27px;
+}
+.skill_right1 span{
+	float: right;
+	color: #8f8f8f;
+	line-height: 27px;
+}
+/*技能展示结束*/
+/*作品开始*/
+/* .zuopin{
+	width: 1140px;
+	height: 985px;
+	background: pink;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.zuopin_top1{
+	width: 240px;
+	height: 54px;
+	background: green;
+	margin: 50px auto 0;
+	font-size: 25px;
+	color: #000000;
+	text-align: center;
+	line-height: 54px;
+}
+.about{
+	width: 1110px;
+	height: 493px;
+	margin:  61px auto 0;
+	margin-top: 61px;
+	background: blue;
+	box-sizing: border-box;
+}
+.about li{
+	width: 350px;
+	height: 232px;
+	background: yellow;
+	margin-right: 30px;
+	margin-bottom: 28px;
+	float: left;
+	box-sizing: border-box;
+	box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+.about li:hover{
+	box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+.about li:nth-child(3n){
+	margin-right: 0;
+}
+.about  li:nth-child(4){
+	margin-bottom: 0;
+}
+.about  li:nth-child(5){
+	margin-bottom: 0;
+}
+.about li:nth-child(6){
+	margin-bottom: 0;
+}
+.about li:nth-child(1){
+	background: url('../img/s1_03.png') no-repeat;
+	background-size: cover;
+}
+.about li:nth-child(2){
+	background: url('../img/s2_03.png') no-repeat;
+	background-size: cover;
+}
+.about li:nth-child(3){
+	background: url('../img/s3_03.png') no-repeat;
+	background-size: cover;
+}
+.about li:nth-child(4){
+	background: url('../img/s4_03.png') no-repeat;
+	background-size: cover;
+}
+.about li:nth-child(5){
+	background: url('../img/s5_03.png') no-repeat;
+	background-size: cover;
+}
+.about li:nth-child(6){
+	background: url('../img/s6_03.png') no-repeat;
+	background-size: cover;
+} */
+.web_design{
+	width: 1140px;
+	height: 700px;
+	/* background: yellow; */
+	margin: 5px auto 0;
+}
+.web_design span{
+	display: block;
+	line-height: 105px;
+	text-align: center;
+	color: #000;
+	font-size: 42px;
+}
+.my_design{
+	width: 1140px;
+	height: 520px;
+	/* background: red; */
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.my_design a{
+	display: block;
+	width: 350px;
+	height: 233px;
+	/* background: green; */
+	transition: 0.5s;
+	margin-bottom: 27px;
+}
+.my_design a:hover{
+	box-shadow: 0 7px 7px 5px rgba(0, 0, 0, 0.5);
+}
+/*作品结束*/
+.footer{
+	width: 100%;
+	height: 195px;
+	background: #111111;
+	overflow: hidden;
+	margin-top: 60px;
+}
+.footer_top{
+	width: 144px;
+	height: 17px;
+	/* background: red; */
+	margin:73px auto 0;
+}
+.footer_top01{
+	width: 22px;
+	height: 100%;
+	/* background: pink; */
+	float: left;
+}
+.footer_top02{
+	width: 22px;
+	height: 100%;
+	/* background: pink; */
+	margin-left: 18px;
+	float: left;
+}
+.footer_top03{
+	width: 22px;
+	height: 100%;
+	/* background: pink; */
+	margin-left: 18px;
+	float: left;
+}
+.footer_top04{
+	width: 22px;
+	height: 100%;
+	/* background: pink; */
+	/* margin-left: 18px; */
+	float: right;
+}
+img{
+	margin: 0 auto;
+}
+.footer_text{
+	width: 304px;
+	height: 17px;
+	/* background: red; */
+	margin: 17px auto 0;
+	font-size: 10px;
+	color: #6a8879;
+	text-align: center;
+	line-height: 17px;
+}
